@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MAUI.Hybrid.Integration.Example/MAUI.Hybrid.Integration.Example.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="MAUI.Hybrid.Integration.Tests/MAUI.Hybrid.Integration.Tests.csproj" />
+</Solution>

@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<button @onclick="ShowAlert">Click me</button>
+
+@if (!string.IsNullOrEmpty(Message))
+{
+    <div id="message">
+        @Message
+    </div>
+}
+@code {
+    private string Message { get; set; } = string.Empty;
+
+    private async Task ShowAlert()
+    {
+        Message = "Button clicked!";
+    }
+}
